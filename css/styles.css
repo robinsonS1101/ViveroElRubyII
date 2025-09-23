@@ -1185,24 +1185,12 @@
                 flex-wrap: wrap;
                 justify-content: center;
             }
-
+            
             .whatsapp-float {
-                position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: var(--primary);
-            color: var(--dark);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            opacity: 0;
-            visibility: hidden;
-            transition: var(--transition);
-            z-index: 999;
+                bottom: 90px;
+                left: 20px;
+                width: 50px;
+                height: 50px;
             }
             
             .whatsapp-float i {
