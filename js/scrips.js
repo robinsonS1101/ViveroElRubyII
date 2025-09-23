@@ -43,7 +43,7 @@
                 description: "Abono natural para todo tipo de plantas. Mejora la calidad del suelo.",
                 fullDescription: "Nuestro fertilizante orgánico está elaborado a base de materia vegetal compostada y enriquecida con minerales naturales. Mejora la estructura del suelo, favorece el crecimiento radicular y aumenta la resistencia de las plantas a plagas y enfermedades. Presentación: saco de 5 kg.",
                 price: "$25.000",
-                image: "img/Cercaviva.jpg",
+                image: "img/Cercaviva.jpeg",
                 category: "insumos"
             }
         ];
