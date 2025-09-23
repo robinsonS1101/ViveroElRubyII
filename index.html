@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero El Ruby | Árboles e Insumos Agrícolas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/573112945754?text=Hola,%20me%20interesa%20saber%20más%20sobre%20sus%20productos" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="#" class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-gem logo-icon"></i>
+                <h1>Vivero El Ruby</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#experiencias">Experiencias</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><button class="admin-btn" title="Gestionar datos" id="admin-btn">Admin</button></li>
+                    <li><button class="logout-btn" id="logout-btn" title="Cerrar sesion">X</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Vivero El Ruby</h2>
+            <p>Tu proveedor confiable de árboles y productos agrícolas de la más alta calidad. Transformamos espacios verdes y apoyamos a agricultores con los mejores insumos.</p>
+            <a href="#productos" class="cta-button">Explorar Productos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>15+ años cultivando calidad</h2>
+                    <p>En Vivero El Ruby nos dedicamos a la producción y comercialización de árboles frutales, ornamentales, forestales e insumos agrícolas de la más alta calidad.</p>
+                    <p>Nuestra experiencia de más de dos décadas nos avala como líderes en el sector, brindando asesoría especializada y productos que garantizan el éxito de sus cultivos y proyectos de reforestacion.</p>
+                    <p>Trabajamos con pasión y compromiso para contribuir al desarrollo agrícola y la conservación del medio ambiente.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/Proceso.jpeg" alt="Sobre Nosotros">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencias Section -->
+    <section id="experiencias" class="experiences">
+        <div class="container">
+            <h2 class="section-title">Experiencias de Clientes</h2>
+            <p class="section-subtitle">Lo que nuestros clientes dicen sobre nosotros</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Compré varios árboles frutales en El Ruby y estoy muy satisfecho con la calidad. 
+                        Todos crecieron sanos y fuertes. El asesoramiento que me dieron fue excelente."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JC</div>
+                        <div class="author-info">
+                            <h4>Juan Carlos</h4>
+                            <p>Agricultor</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "El servicio de diseño de jardines superó mis expectativas. Transformaron completamente 
+                        mi patio trasero en un oasis verde. Muy profesionales y creativos."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MG</div>
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Cliente residencial</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Como paisajista, he trabajado con muchos viveros, pero El Ruby destaca por la 
+                        calidad de sus plantas y su variedad. Siempre encuentro lo que necesito para mis proyectos."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RP</div>
+                        <div class="author-info">
+                            <h4>Roberto Pazmiño</h4>
+                            <p>Paisajista profesional</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="frutales">Frutales</button>
+                <button class="filter-btn" data-filter="ornamentales">Ornamentales</button>
+                <button class="filter-btn" data-filter="forestales">Forestales</button>
+                <button class="filter-btn" data-filter="insumos">Insumos</button>
+            </div>
+            
+            <div class="products-grid" id="products-container">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Asesoría Técnica</h3>
+                    <p>Brindamos asesoramiento especializado para seleccionar las especies adecuadas según el clima, suelo y propósito de siembra.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Envíos a Domicilio</h3>
+                    <p>Realizamos entregas a domicilio en toda la región, garantizando que sus plantas lleguen en perfecto estado.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Diseño de Jardines</h3>
+                    <p>Servicio profesional de diseño y planificación de jardines residenciales y comerciales con las especies más adecuadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Dirección</h4>
+                            <p>Vereda Sardinata, Restrepo-Meta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <p>+57 3178714546</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>aguirrerobinson05@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horario de Atención</h4>
+                            <p>Lunes a Sábado: 8:00 AM - 6:00 PM</p>
+                            <p>Domingo: 9:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="cta-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa Section -->
+    <section class="map-section" id="ubicacion">
+        <h2 class="section-title">Nuestra Ubicación</h2>
+        <p style="text-align: center; margin-bottom: 2rem;">Visítanos en nuestra finca en la Vereda Sardinata, Restrepo Meta</p>
+        
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15907.69396503087!2d-73.561676!3d4.252396!2m3!1f0!2f0!3f0!3m2!1i1020!2i768!4f13.1!3m3!1m2!1s0x8e3f83b7c1c64a25%3A0x4257f97b8d2c6c0f!2sRestrepo%2C%20Meta!5e0!3m2!1ses!2sco!4v1684367890123!5m2!1ses!2sco" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="https://www.google.com/maps/place/El+Tropez%C3%B3n+(el+aut%C3%A9ntico)/@4.2337826,-73.5172951,3a,75y,239.05h,76.45t/data=!3m7!1e1!3m5!1sYWavpPOBizs7LQWrSG-7hw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.548910580284343%26panoid%3DYWavpPOBizs7LQWrSG-7hw%26yaw%3D239.04681860664957!7i16384!8i8192!4m6!3m5!1s0x8e3fd57d9c5765a5:0x1e44f7fa6963ca08!8m2!3d4.2360363!4d-73.5170606!16s%2Fg%2F11gy1q9r4c?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" class="cta-button" target="_blank">
+                <i class="fas fa-directions"></i> Cómo llegar
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <h2>Vivero El Ruby</h2>
+                    </div>
+                    <p>Proveedores de confianza de árboles y productos agrícolas de alta calidad desde 15+ años.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Suscríbete a nuestro boletín</h3>
+                    <p>Recibe consejos de jardinería y ofertas especiales.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vivero El Ruby. Todos los derechos reservados. <img src="img/bandera-colombia.png" alt="Vivero el Ruby" width="15px" height="14px"></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-product" id="modal-product-content">
+                    <!-- Contenido del modal se cargará dinámicamente -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="login-close">&times;</button>
+            <div class="modal-body">
+                <form class="login-form" id="login-form">
+                    <h2>Iniciar Sesión</h2>
+                    <div class="form-group">
+                        <label for="login-email">Usuario</label>
+                        <input type="text" id="login-email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="login-password">Contraseña</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Ingresar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel -->
+    <section class="products" id="admin-section">
+        <div class="container">
+            <div class="admin-panel" id="admin-panel">
+                <div class="admin-header">
+                    <h2 class="section-title">Panel de Administración</h2>
+                    <button class="logout-btn" id="admin-logout-btn">Cerrar Sesión</button>
+                </div>
+                
+                <div class="admin-tabs">
+                    <button class="admin-tab active" data-tab="add">Agregar Producto</button>
+                    <button class="admin-tab" data-tab="edit">Editar Productos</button>
+                    <button class="admin-tab" data-tab="testimonials">Gestionar Experiencias</button>
+                </div>
+                
+                <!-- Formulario para agregar producto -->
+                <form id="product-form" class="admin-form">
+                    <div class="form-group">
+                        <label for="product-name">Nombre del Producto</label>
+                        <input type="text" id="product-name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-category">Categoría</label>
+                        <select id="product-category" required>
+                            <option value="frutales">Árboles Frutales</option>
+                            <option value="ornamentales">Árboles Ornamentales</option>
+                            <option value="forestales">Árboles Forestales</option>
+                            <option value="insumos">Insumos</option>
+                            <option value="servicios">Servicios</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-price">Precio</label>
+                        <input type="text" id="product-price" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-description">Descripción Corta</label>
+                        <textarea id="product-description" required></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="product-full-description">Descripción Completa</label>
+                        <textarea id="product-full-description" required></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="product-image">Imagen del Producto</label>
+                        <input type="file" id="product-image" accept="image/*" required>
+                        <div class="image-preview" id="image-preview">
+                            <p>Vista previa de la imagen</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group full-width admin-actions">
+                        <button type="button" class="btn-cancel" id="cancel-edit">Cancelar</button>
+                        <button type="submit" class="cta-button">Agregar Producto</button>
+                    </div>
+                </form>
+                
+                <!-- Sección para editar productos -->
+                <div id="edit-products-section" style="display: none;">
+                    <h3>Gestionar Productos</h3>
+                    <p>Selecciona un producto para editarlo o eliminarlo</p>
+                    <div id="edit-products-list" class="edit-products-grid">
+                        <!-- Los productos para editar se cargarán aquí -->
+                    </div>
+                </div>
+                
+                <!-- Sección para gestionar testimonios -->
+                <div id="testimonials-section" style="display: none;">
+                    <h3>Gestionar Experiencias de Clientes</h3>
+                    <p>Agrega, edita o elimina testimonios de clientes</p>
+                    
+                    <form id="testimonial-form" class="admin-form">
+                        <div class="form-group full-width">
+                            <label for="testimonial-text">Testimonio</label>
+                            <textarea id="testimonial-text" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="testimonial-author">Nombre del Autor</label>
+                            <input type="text" id="testimonial-author" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="testimonial-role">Rol/Profesión</label>
+                            <input type="text" id="testimonial-role" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="testimonial-rating">Calificación</label>
+                            <select id="testimonial-rating" required>
+                                <option value="5">5 Estrellas</option>
+                                <option value="4">4 Estrellas</option>
+                                <option value="3">3 Estrellas</option>
+                                <option value="2">2 Estrellas</option>
+                                <option value="1">1 Estrella</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group full-width admin-actions">
+                            <button type="button" class="btn-cancel" id="cancel-testimonial">Cancelar</button>
+                            <button type="submit" class="cta-button">Agregar Testimonio</button>
+                        </div>
+                    </form>
+                    
+                    <div class="testimonials-list" id="admin-testimonials-list">
+                        <!-- Los testimonios para gestionar se cargarán aquí -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/scrips.js"></script>
+
+    <!-- Script para mostrar/ocultar el botón Admin con Ctrl + / -->
+    <script>
+        const boton = document.getElementById('admin-btn');
+
+        // Ocultar el botón al cargar la página
+        boton.style.display = 'none';
+
+        document.addEventListener('keydown', function(event) {
+            // Verificar si se presionaron Ctrl (o Cmd en Mac) + B
+            if (event.ctrlKey || event.metaKey) { // Ctrl o Cmd
+                if (event.key === '/') { // Tecla / slash
+                    // Alternar la visibilidad del botón
+                    if (boton.style.display === 'none') {
+                        boton.style.display = 'inline-block'; // o 'block' si prefieres
+                    } else {
+                        boton.style.display = 'none';
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
