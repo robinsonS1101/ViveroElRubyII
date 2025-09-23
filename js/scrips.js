@@ -36,6 +36,15 @@
                 price: "$25.000",
                 image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSIxMDAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMDBmZjlkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+RmVydGlsaXphbnRlPC90ZXh0Pjwvc3ZnPg==",
                 category: "insumos"
+            },
+            {
+                id: 5,
+                title: "Prueba",
+                description: "Abono natural para todo tipo de plantas. Mejora la calidad del suelo.",
+                fullDescription: "Nuestro fertilizante orgánico está elaborado a base de materia vegetal compostada y enriquecida con minerales naturales. Mejora la estructura del suelo, favorece el crecimiento radicular y aumenta la resistencia de las plantas a plagas y enfermedades. Presentación: saco de 5 kg.",
+                price: "$25.000",
+                image: "img/Cercaviva.jpg",
+                category: "insumos"
             }
         ];
 
