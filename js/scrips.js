@@ -129,7 +129,7 @@
                                 <i class="fas fa-trash"></i> Eliminar
                             </button>
                             ` : ''}
-                            <a href="https://wa.me/59341234567?text=Hola,%20me%20interesa%20cotizar%20el%20producto:%20${encodeURIComponent(product.title)}" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/573112945754?text=Hola,%20me%20interesa%20cotizar%20el%20producto:%20${encodeURIComponent(product.title)}" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
                             </a>
                         </div>
