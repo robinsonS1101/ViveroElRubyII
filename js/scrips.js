@@ -59,7 +59,7 @@
             },
             {
                 id: 2,
-                text: "El servicio de diseño de jardines superó mis expectativas. Transformaron completamente mi patio trasero en un oasis verde. Muy profesionales y creativos.",
+                text: "Como agricultor, lo que más valoro de mi sistema de riego es que es fácil de manejar directamente en el campoGracias a esto ahorro agua, reduzco costos y tengo la seguridad de que mis plantaciones reciben siempre el riego adecuado de forma práctica y confiable.",
                 author: "María González",
                 role: "Cliente residencial",
                 rating: 4.5
