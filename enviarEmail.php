@@ -2,7 +2,7 @@
     $destinatario='aguirrerobinson05@gmail.com';
     $nombre=    $_POS['nombre'];
     $email=     $_POS['email'];
-    $asunto=  $_POS['ausunto'];
+    $asunto=  $_POS['asunto'];
     $mensage=   $_POS['mensaje'];
 
     $header= 'Enviado desde la paguina JakySan';
