@@ -2,49 +2,13 @@
         // Datos de productos (almacenados en localStorage)
         let products = JSON.parse(localStorage.getItem('viveroProducts')) || [
             {
-                id: 1,
+               /* id: 1,
                 title: "Manzano",
                 description: "Árbol frutal de clima templado. Produce manzanas crujientes y dulces.",
                 fullDescription: "El manzano es un árbol frutal de clima templado que produce manzanas crujientes y dulces. Ideal para huertos caseros y comerciales. Requiere suelo bien drenado y exposición solar directa. Tiempo de cosecha: 2-3 años después de la siembra. Incluye asesoría de cuidado y mantenimiento.",
                 price: "$45.000",
                 image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSIxMDAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMDBmZjlkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+0JjQsNC30L3QvtC5PC90ZXh0Pjwvc3ZnPg==",
-                category: "frutales"
-            },
-            {
-                id: 2,
-                title: "Limón Tahití",
-                description: "Árbol de limón de alta productividad. Ideal para zonas cálidas.",
-                fullDescription: "El limón Tahití es una variedad de alta productividad, ideal para zonas cálidas. Produce frutos jugosos con alto contenido de vitamina C. Resistente a plagas y enfermedades comunes. Perfecto para cultivo orgánico. Incluye guía de poda y fertilización.",
-                price: "$38.000",
-                image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSIxMDAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMDBmZjlkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+0JvQuNC80Y7RjTwvdGV4dD48L3N2Zz4=",
-                category: "frutales"
-            },
-            {
-                id: 3,
-                title: "Pino Limón",
-                description: "Árbol ornamental con agradable aroma a cítricos. Ideal para jardines.",
-                fullDescription: "El pino limón es una variedad ornamental que desprende un agradable aroma a cítricos. Crece hasta 6 metros de altura y es perfecto para jardines residenciales y parques. Requiere poco mantenimiento y es resistente a condiciones climáticas variadas.",
-                price: "$52.000",
-                image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSIxMDAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMDBmZjlkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+0JjQuNC90L7QvNGOPC90ZXh0Pjwvc3ZnPg==",
-                category: "ornamentales"
-            },
-            {
-                id: 4,
-                title: "Abarco de rio",
-                description: "Ayuda a conservar suelos y fuentes de agua. Contribuye a la captura de carbono y mejora la calidad del aire.",
-                fullDescription: "Madera: Es muy apreciada por su dureza, resistencia y durabilidad. Se utiliza en construcción, carpintería, muebles, pisos y ebanistería fina. Reforestación: Es ideal para proyectos de restauración ecológica y protección de cuencas hídricas.Sombra y ornamento: Se planta en parques y jardines por su porte majestuoso y copa amplia.Biodiversidad: Proporciona hábitat y alimento para fauna silvestre.",
-                price: "$3500",
-                image: "img/Abarco-de-rio.jpg",
-                category: "insumos"
-            },
-            {
-                id: 5,
-                title: "Prueba",
-                description: "Abono natural para todo tipo de plantas. Mejora la calidad del suelo.",
-                fullDescription: "Nuestro fertilizante orgánico está elaborado a base de materia vegetal compostada y enriquecida con minerales naturales. Mejora la estructura del suelo, favorece el crecimiento radicular y aumenta la resistencia de las plantas a plagas y enfermedades. Presentación: saco de 5 kg.",
-                price: "$25.000",
-                image: "img/Cercaviva.jpeg",
-                category: "insumos"
+                category: "frutales"*/
             }
         ];
 
