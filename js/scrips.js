@@ -30,11 +30,11 @@
             },
             {
                 id: 4,
-                title: "Fertilizante Orgánico",
-                description: "Abono natural para todo tipo de plantas. Mejora la calidad del suelo.",
-                fullDescription: "Nuestro fertilizante orgánico está elaborado a base de materia vegetal compostada y enriquecida con minerales naturales. Mejora la estructura del suelo, favorece el crecimiento radicular y aumenta la resistencia de las plantas a plagas y enfermedades. Presentación: saco de 5 kg.",
-                price: "$25.000",
-                image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSIxMDAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMDBmZjlkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+RmVydGlsaXphbnRlPC90ZXh0Pjwvc3ZnPg==",
+                title: "Abarco de rio",
+                description: "Ayuda a conservar suelos y fuentes de agua. Contribuye a la captura de carbono y mejora la calidad del aire.",
+                fullDescription: "Madera: Es muy apreciada por su dureza, resistencia y durabilidad. Se utiliza en construcción, carpintería, muebles, pisos y ebanistería fina. Reforestación: Es ideal para proyectos de restauración ecológica y protección de cuencas hídricas.Sombra y ornamento: Se planta en parques y jardines por su porte majestuoso y copa amplia.Biodiversidad: Proporciona hábitat y alimento para fauna silvestre.",
+                price: "$3500",
+                image: "img/Abarco-de-rio.jpg",
                 category: "insumos"
             },
             {
